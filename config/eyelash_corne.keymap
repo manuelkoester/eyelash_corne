@@ -115,10 +115,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans         &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)                               &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(TILDE)  &kp LS(COLON)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp LS(DQT)    &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)  &kp LSHFT                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
-                                            &kp LS(LPAR)   &kp LS(RPAR)   &kp SPACE                                                                   &trans  &trans  &trans
+&trans         &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)                                 &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(TILDE)  &kp LS(COLON)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &kp LS(DQT)    &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)    &kp LSHFT                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
+                                            &kp LS(LPAR)   &kp LS(RPAR)   &kp UNDERSCORE                                                                &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
