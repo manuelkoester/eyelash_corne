@@ -35,6 +35,16 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
+        capslock_shift: behavior_hold_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "CAPSLOCK_SHIFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;       // adjust to taste
+            quick-tap-ms = <0>;            // disable quick tap
+            flavor = "hold-prefer";        // prioritize hold if other key pressed
+            bindings = <&kp CAPSLOCK>, <&kp LSHFT>;
+        };
+
         lh_pht: home_row_left_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
