@@ -35,15 +35,6 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
-        capslock_shift: capslock_shift {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "hold-prefer";
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
-
         lh_pht: home_row_left_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
